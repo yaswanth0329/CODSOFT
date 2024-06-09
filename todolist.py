@@ -6,7 +6,7 @@ def add():
     entry.delete(0,END)
 def delete():
     listbox.delete(listbox.curselection())
-    list.config(height=listbox.size())
+    listbox.config(height=listbox.size())
 
 window=Tk()
 window.geometry("800x800")
